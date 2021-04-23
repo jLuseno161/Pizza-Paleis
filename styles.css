@@ -1,0 +1,19 @@
+nav li {
+    list-style: none;
+    display: inline;
+    padding: 15px;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13pt;
+}
+
+#navlist {
+    float: right;
+}
+
+#navlist a:hover {
+    color: skyblue;
+}
