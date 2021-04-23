@@ -50,11 +50,14 @@ nav a:hover {
     padding-top: 5%;
     padding-bottom: 5%;
 }
-#make_order{
+#make-order{
     padding-bottom: 5%;
 
 }
 .orderText{
     background-color:plum;
     padding: 20px;
+}
+.place-order{
+    padding: 3%;
 }
