@@ -60,7 +60,8 @@ nav a:hover {
 }
 
 .orderText {
-    background-color: plum;
+    background-color: navy;
+    color: white;
     padding: 20px;
 }
 
@@ -72,8 +73,17 @@ footer {
     background-color: navy;
     box-sizing: border-box;
     color: white;
-    padding: 20px;
+    padding: 5px;
     overflow: hidden;
-    height: 80px;
     width: 100%;
+}
+
+.fa {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.fa:hover {
+    color: aqua;
 }
