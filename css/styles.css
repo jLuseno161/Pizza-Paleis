@@ -28,9 +28,16 @@ nav a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center center;
-    padding: 8%;
 }
-
+#overlay {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    padding: 8%;
+    background-color: rgba(90, 89, 89, 0.5);
+}
 #text {
     width: 100%;
     font-weight: 600px;
