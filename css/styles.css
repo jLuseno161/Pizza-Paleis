@@ -49,5 +49,12 @@ nav a:hover {
 #about{
     padding-top: 5%;
     padding-bottom: 5%;
+}
+#make_order{
+    padding-bottom: 5%;
 
+}
+.orderText{
+    background-color:plum;
+    padding: 20px;
 }
