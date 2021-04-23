@@ -1,7 +1,12 @@
 header {
     background-color: white;
-    color:navy;
-    font-weight: 600;
+    color: navy;
+    font-family: 'Ballet', cursive;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: x-large;
+    font-weight: 700;
     position: sticky;
     top: 0;
     left: 0;
@@ -14,12 +19,13 @@ nav {
 }
 
 .paleis {
-    padding-top: 17px
+    padding-top: 17px;
+    font-size:xx-large;
 }
 
 nav a {
-    font-weight: 500;
-    color:navy;
+    font-weight: 600;
+    color: navy;
     padding: 8px;
     text-decoration: none;
 }
@@ -27,15 +33,18 @@ nav a {
 nav a:hover {
     color: skyblue;
 }
-.nav_icon{
-    display:none;
+
+.nav_icon {
+    display: none;
 }
-#nav_icon{
+
+#nav_icon {
     width: 50px;
     height: 5px;
     background-color: navy;
     margin: 6px 0;
 }
+
 #landing-section {
     text-align: center;
     background-image: url('../assets/pizza1.jpg');
@@ -101,11 +110,12 @@ footer {
     color: aqua;
 }
 
-@media only screen and (max-width:900px){
+@media only screen and (max-width:900px) {
     nav .links {
         display: none;
     }
-    .nav_icon{
-        display:block;
+
+    .nav_icon {
+        display: block;
     }
 }
