@@ -1,3 +1,13 @@
+header {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
 nav li {
     list-style: none;
     display: inline;
