@@ -1,4 +1,5 @@
 header {
+    background-color: white;
     position: sticky;
     top: 0;
     left: 0;
@@ -22,7 +23,7 @@ nav a:hover {
     color: skyblue;
 }
 
-.landing-section {
+#landing-section {
     text-align: center;
     background-image: url('../assets/pizza1.jpg');
     background-repeat: no-repeat;
@@ -44,4 +45,9 @@ nav a:hover {
     font-size: large;
     text-align: center;
     color: white;
+}
+#about{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
 }
