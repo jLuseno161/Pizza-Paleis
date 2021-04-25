@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Ballet&family=Lovers+Quarrel&family=Pacifico&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ballet&family=Lovers+Quarrel&family=Pacifico&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
     <title>Pizza Paleis</title>
 </head>
 
@@ -143,7 +145,7 @@
             </div>
         </div>
     </section>
-    <section id="makeOrder"class="container">
+    <section id="makeOrder" class="container">
         <div class="row">
             <h2>Place your order here</h2>
             <div class="col-md-6">
@@ -199,7 +201,7 @@
                 </div>
                 <div class="form-group">
                     <label for="name">Enter Your full name</label>
-                    <input type="text" class="form-control form-select-lg mb-3" name=""id="name">
+                    <input type="text" class="form-control form-select-lg mb-3" name="" id="name">
                 </div>
                 <div class="form-group radioBtn">
                     <label for="deliver">Do you prefer your order delivered?</label>
@@ -212,11 +214,37 @@
                 </div>
                 <div class="form-group location">
                     <label for="name">Please enter your Location</label>
-                    <input type="text" class="form-control form-select-lg mb-3" name="" 
-                        id="location">
+                    <input type="text" class="form-control form-select-lg mb-3" name="" id="location">
                 </div>
             </div>
-        </div> 
+        </div>
+    </section>
+    <section>
+        <div class="displayOrder table-responsive container">
+            <table class="table">
+                <thead class="table-primary">
+                    <th>Flavor</th>
+                    <th>Size</th>
+                    <th>Crust</th>
+                    <th>Toppings</th>
+                    <th>Quantity</th>
+                    <th id="billPerOrder">Total</th>
+                    <th>Change Order</th>
+                </thead>
+                <tr></tr>
+                <tbody>
+                </tbody>
+            </table>
+            <div>
+                <div class="form-group">
+                    <p id="bill"><span id="result"></span></p>
+                    <p id="bill"> <span id="totalCost"></span></p>
+                </div>
+                <div class="form-group">
+                    <input class="btn btn-primary" type="button" id="checkout" value="Proceed to Checkout">
+                </div>
+            </div>
+        </div>
     </section>
     <footer class="footer">
         <div class="container text-center">
