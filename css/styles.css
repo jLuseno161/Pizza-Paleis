@@ -89,8 +89,7 @@ nav a:hover {
     flex-direction: column;
     background-color: rgba(163, 160, 160, 0.5);
     font-size: 18px;
-    display:none;
-    
+    display:flex;
 }
 
 .orderText {
