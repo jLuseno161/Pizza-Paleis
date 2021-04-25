@@ -22,7 +22,7 @@ function fullBill() {
         $('#totalCost').text(total);
 
         swal({
-            title: "Your order will be delivered to your Location",
+            title: "Your order will be delivered to your Location at a fee of 200 shillings",
             icon: "success",
         })
 
@@ -34,15 +34,13 @@ function fullBill() {
 }
 
 function checkout() {
-
     swal({
         title: "Your order has been placed successfully." + "\r\n" + "Thank You for shopping with Us",
         icon: "success",
-    })
+    }).then((value) => {
+        location.reload();
+    });
 }
-
-
-
 
 Order.prototype.getCrust = function () {
     if (this.crust === 0) {
