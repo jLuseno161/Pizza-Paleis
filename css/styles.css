@@ -1,3 +1,7 @@
+.sidebar{
+    font-size: 20px;
+    display:none;
+}
 header {
     background-color: white;
     color: navy;
@@ -173,7 +177,6 @@ footer {
     color: aqua;
 }
 
-
 @media only screen and (max-width:900px) {
     nav .links {
         display: none;
@@ -181,5 +184,10 @@ footer {
 
     .nav_icon {
         display: block;
+    }
+}
+@media only screen and (min-width:900px) {
+    .sidebar{
+        display:none;
     }
 }

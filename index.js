@@ -124,8 +124,16 @@
  }
 
  $(document).ready(function () {
-     //place order 
-
+     //sidebar nav
+    $('.nav_icon').click(function (){
+        $('.sidebar').toggle();
+    })
+    
+    //hide nav on screen resize
+    $(window). resize(function(){
+        $('.sidebar').hide();
+    })
+    
      //display location field if delivered
      $('.radioBtn').change(function () {
          if (document.getElementById("yes").checked) {
