@@ -42,6 +42,8 @@ function checkout() {
 }
 
 
+
+
 Order.prototype.getCrust = function () {
     if (this.crust === 0) {
         return 100
@@ -119,6 +121,9 @@ Order.prototype.getSize = function () {
 }
 $(document).ready(function () {
 
+    $('.place-order').click(function () {
+        $('#order').show();
+    })
     $('.radioBtn').change(function () {
         if (document.getElementById("yes").checked) {
             $('.location').show();

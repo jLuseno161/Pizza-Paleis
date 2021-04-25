@@ -78,7 +78,7 @@ nav a:hover {
 
 #variety,
 #makeOrder {
-    padding-bottom: 3%;
+    padding: 3%;
 }
 
 #order {
@@ -86,10 +86,11 @@ nav a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    display: flex;
     flex-direction: column;
     background-color: rgba(163, 160, 160, 0.5);
-    font-size: 20px;
+    font-size: 18px;
+    display:none;
+    
 }
 
 .orderText {
@@ -112,10 +113,6 @@ nav a:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.place-order {
-    padding: 3%;
-}
-
 label {
     font-weight: 500;
     padding-top: 10px;
@@ -129,6 +126,9 @@ label {
 
 th {
     border: 1px solid rgb(206, 203, 203);
+}
+td{
+    color:white;
 }
 
 .btn {
